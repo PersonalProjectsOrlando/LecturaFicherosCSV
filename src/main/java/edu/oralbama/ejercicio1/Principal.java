@@ -41,4 +41,24 @@ public class Principal {
     }
     
 }
+/*
+1) Definir una clase abstracta Persona con las siguientes características:
+a. Atributos: nombre y edad.
+b. Setters y getters para todos los atributos.
+c. Método abstracto “getSaludo”. Las diferentes implementaciones de este método devolverán un String con el contenido “Hola. Me llamo
+<nombre> y soy un/a <tipo_persona> de <edad> años.”
+2) Definir cuatro clases heredadas de Persona: Niño, Niña, Hombre y Mujer.
+3) Definir una última clase Main.java que será el punto de entrada del programa, y en ella se realizarán las siguientes acciones:
+a. Construir un Vector de personas con los datos del fichero “personas.csv”
+b. Iterar el vector para que todas las personas saluden.
+- El fichero “personas.csv” contendrá una persona en cada línea. Una línea se compone de los campos: nombre,sexo,edad
+- El sexo podrá ser “M” (masculino) o “F”(femenino).
+- Si una persona es mayor de 18 años se considerará un hombre (o mujer), y si es menor de 18 será un niño o niña.
+Ejemplo de fichero “personas.csv”:
+El fichero anterior debe producir la salida:
+Hola. Me llamo Ana y soy una mujer de 35 años. Hola. Me llamo Pedro y soy un hombre de 42 años. Hola. Me llamo Juan y soy un hombre de 39 años. Hola. Me llamo Marc y soy un niño de 8 años.
+Hola. Me llamo Andrea y soy una niña de 14 años.
+Ana,F,35
+Pedro,M,42 Juan,M,39 Marc,M,8 Andrea,F,14
+*/
 
